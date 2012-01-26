@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='br.com.mr.dockapp.DockApp'/>
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/dockapp/greet" class="br.com.mr.dockapp.server.GreetingServiceImpl" />
+
+</module>
